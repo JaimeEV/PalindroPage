@@ -1,6 +1,5 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    /* font-size: 20px; */
 }
 
 body {
@@ -14,7 +13,7 @@ a {
 
 
 main {
-    margin-top: 50px;
+    margin-top: 150px;
     text-align: center;
 }
 main .main-logo {
@@ -23,7 +22,7 @@ main .main-logo {
     margin-bottom: 35px;
 }
 main .main-logo img {
-    width: 200px;
+    width: 300px;
     border-radius: 100%;
 }
 
@@ -52,7 +51,7 @@ main .main-input-container:hover {
     box-shadow: 0 1px 6px 0 #20212467;
     border-color: #dfe1e500;
 }
-main .main-input .search-icon {
+main .main-input .arrow-icon {
     background-image: url('https://media1.giphy.com/media/kfdToDtrFydamGsbPz/giphy.gif?cid=ecf05e476643bae8oaiq90961rw26ruuatcm22r6e4q0sr7q&rid=giphy.gif');
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +59,7 @@ main .main-input .search-icon {
     width: 60px;
     height: 60px;
 }
-main .main-input .micro-icon {
+main .main-input .bear-icon {
     background-image: url('https://media3.giphy.com/media/4GZZW2K5R8J83rYcn9/giphy.gif?cid=ecf05e476945b88326a143971a22776d27389e99a299f0b1&rid=giphy.gif');
     background-repeat: no-repeat;
     background-position: center;
