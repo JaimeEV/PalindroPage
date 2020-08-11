@@ -1,0 +1,94 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 20px; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212467;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image: url('https://media1.giphy.com/media/kfdToDtrFydamGsbPz/giphy.gif?cid=ecf05e476643bae8oaiq90961rw26ruuatcm22r6e4q0sr7q&rid=giphy.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+main .main-input .micro-icon {
+    background-image: url('https://media3.giphy.com/media/4GZZW2K5R8J83rYcn9/giphy.gif?cid=ecf05e476945b88326a143971a22776d27389e99a299f0b1&rid=giphy.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 530px;   
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons input {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 20px;
+    color: #5f6368;
+    border-radius: 100px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons input:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
